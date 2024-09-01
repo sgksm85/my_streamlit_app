@@ -1,0 +1,21 @@
+.stDataFrame {
+  width: 100%;  /* または特定のピクセル値 */
+  max-width: 1200px;  /* 最大幅を設定 */
+  margin: 0 auto;  /* 中央揃え */
+}
+
+.stDataFrame th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.stDataFrame td {
+  padding: 8px;
+  text-align: right;
+}
+
+.stDataFrame tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
