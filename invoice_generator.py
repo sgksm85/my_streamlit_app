@@ -10,7 +10,7 @@ def load_external_css(file_path):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # 外部CSSファイルを読み込む
-load_external_css("/Users/shigikasumi/Dropbox/Projects/Projects/99_Automation_Scripts/my_streamlit_app/css/invoice_generator.css")
+load_external_css("./css/invoice_generator.css") 
 
 HOURLY_RATE = 2700  # 時給2700円
 
